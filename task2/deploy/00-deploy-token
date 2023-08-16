@@ -1,0 +1,16 @@
+const { network, ethers } = require("hardhat");
+let { verify } = require("../utils/verify");
+module.exports = async function ({ getNamedAccounts, deployments }) {
+  // let { deploy, log } = deployments;
+  // let { deployer } = await getNamedAccounts();
+  // let args = ["0xDbfA076EDBFD4b37a86D1d7Ec552e3926021fB97"];
+  // let raffle = await deploy("Escrow", {
+  //   from: deployer,
+  //   args,
+  //   log: true,
+  //   waitConfirmations: 3,
+  // });
+
+  // await verify(raffle.address, args);
+};
+module.exports.tags = ["all", "raffle"];
